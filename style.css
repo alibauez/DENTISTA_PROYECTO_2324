@@ -1,0 +1,16 @@
+
+
+@import "./css/paginaPrincipal.css";
+@import "./css/contenidoPaginaInicial.css";
+@import "./css/contenidoPaginaComponente.css";
+@import "./css/listaDentistas.css";
+@import "./css/datosDentista.css";
+@import "./css/datosTratamiento.css";
+@import "./css/listaTratamientos.css";
+
+/************************************************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }

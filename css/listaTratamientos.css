@@ -1,0 +1,38 @@
+.listaTratamientos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: solid 2px green;
+  padding: 0.2rem;
+}
+
+.itemTratamiento {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.itemTratamiento:hover {
+  cursor: pointer;
+}
+
+.nombreTratamiento:hover {
+  background-color: hsl(120, 29%, 81%);
+}
+.controlBajaTratamiento {
+  background-color: hsl(0, 75%, 77%);
+  color: white;
+  padding: 0.2rem;
+}
+
+.controlBajaTratamiento:hover {
+  background-color: hsl(0, 75%, 40%);;
+}
+
+.botonNuevoTratamiento{
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background-color: hsl(120, 29%, 81%);
+  border-color: hsl(120, 29%, 81%);
+}

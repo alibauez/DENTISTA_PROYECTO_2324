@@ -1,0 +1,44 @@
+.lienzo {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cabecera {
+  background-image: linear-gradient(to right, hsl(120, 29%, 81%), rgb(90, 155, 90)); 
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.75rem;
+}
+
+.menu {
+  margin: 0.1rem;
+}
+
+.opcionesMenu {
+  list-style: none;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.itemOpcionesMenu {
+  background-color: rgb(97, 128, 97);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cuerpo {
+  padding: 0.5rem;
+  flex-grow: 1;
+}
+
+.pie {
+  background-image: linear-gradient(to right, hsl(120, 29%, 81%), rgb(90, 155, 90)); 
+  color: white;
+  padding: 0.7rem;
+}

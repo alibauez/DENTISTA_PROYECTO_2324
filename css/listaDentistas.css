@@ -1,0 +1,38 @@
+.listaDentistas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: solid 2px green;
+  padding: 0.2rem;
+}
+
+.itemDentista {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.itemDentista:hover {
+  cursor: pointer;
+}
+
+.nombreDentista:hover {
+  background-color: hsl(120, 29%, 81%);
+}
+.controlBajaDentista {
+  background-color: hsl(0, 75%, 77%);
+  color: white;
+  padding: 0.2rem;
+}
+
+.controlBajaDentista:hover {
+  background-color: hsl(0, 75%, 40%);;
+}
+
+.botonNuevoDentista{
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background-color: hsl(120, 29%, 81%);
+  border-color: hsl(120, 29%, 81%);
+}

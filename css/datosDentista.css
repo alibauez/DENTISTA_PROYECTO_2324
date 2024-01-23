@@ -1,0 +1,25 @@
+.datosDentista {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.3rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+
+.boton {
+  margin-top: 0.25rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  background-color: hsl(120, 29%, 81%);
+  border-color: hsl(120, 29%, 81%);
+}
+
+.error {
+  background-color: #ed8787; 
+}
+
